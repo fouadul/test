@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,span,ol,ul,a{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+/* navber start*/
+:root{
+   --primaryColor: #02918b;
+}
+  nav.mynav{
+    background-color: var(--primaryColor);
+  }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+#myCustomNav ul li a{
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    padding: 24px 26px;
+}
+.menuToggler{
+    font-size: 25px;
+    color: white;
+   border-color: white;
+}
+/* navber ends*/
+/* banner start*/
+#banner{
+  height: 730px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+#banner .row{
+    height: 730px;
+}
+#banner .banner_cnt h3{
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    padding: 10px 0;
+
+}
+#banner .banner_cnt h4{
+    font-size: 30px;
+    font-weight: 400;
+
+}
+#about .row{
+    height: 360px;
+}
+#about .about_cnt h3{
+    font-size: 46px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+#about .about_cnt p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#aboutme{
+    padding: 60px 0;
+}
+#aboutme .about_card .icon{
+    color: #02918b;
+}
+#aboutme .about_card h3{
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+}
+#aboutme .about_card p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+}
+#services .services_cnt{
+    width: 50%;
+}
+#services{
+background-image: url(../img/banner11.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 530px;
+
+}
+#services .services_cnt h2{
+font-size: 46px;
+font-weight: 400;
+color: #02918b;
+padding: 46px 10px;
+}
+#services .services_cnt h3{
+font-size: 16px;
+font-weight: 400;
+text-transform: uppercase;
+padding: 15px 0;
+}
+#services .services_cnt p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+#services .services_cnt .icon{
+    color: #02918b;
+}
+#mywork .mywork_text{
+    height: 350px;
+}
+#mywork .mywork_text h3{
+font-size: 46px;
+font-weight: 400;
+color: #02918b;
+padding: 60px 0;
+text-align: center;
+}
+#mywork .mywork_text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    text-align: center;
+}
+
+.work_card img{
+    width: 100%;
+    display: block;
+}
+#contact .contact_text{
+    height: 333px;
+}
+.contact_text h3{
+ padding: 50px;
+font-size: 46px;
+font-weight: 400;
+color: #02918b;
+text-align: center;
+}
+.contact_text p{
+font-size: 11px;
+font-weight: 400;
+text-align: center;
+color: #7e8287;
+}
+.contact_text img{
+    text-align: center;
+    padding: 40px;
+}
